@@ -10,32 +10,49 @@
 <body>
     <div class="backround"></div>
 <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="project.html">project</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+  
+
+    <div class="nav-main">
+      <ul class="nav-links">
+        <li class="home-link"><a href="index.html">Home</a></li>
+        <li class="hide-mobile"><a href="project.html">Project</a></li>
+        <li class="hide-mobile"><a href="contact.html">Contact</a></li>
+        <li class="hide-mobile"><a href="blog.html">Blog</a></li>
+      </ul>
+      <input type="checkbox" id="sidebar-toggle" style="display:none;">
+      <label for="sidebar-toggle" class="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+        </svg>
+      </label>
+      <div class="sidebar">
+        <label for="sidebar-toggle" class="close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+          </svg>
+        </label>
+        <ul class="sidebar-links">
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="container"></div>
  </nav>
  
-    <h1>Hello!</h1>
     <div class="context">
-    <div class="info"></div>
-    <div class="card"></div>
-  <div class="more">
-    <h2>I'm Suryansh Singh<br>Welcome to my personal website. I'm a passionate developer and tech enthusiast. Explore </h2>
+    <div class="info">
+      <h1 class="hello">Hello I'm Suryansh Singh!</h1>  
+      <h2>Welcome to my personal website. I'm a passionate developer and tech enthusiast. Explore </h2>
+      </div>
+    <div class="card"> this is suppost to be a card</div>
     </div>
-    </div>
-  
+
 
 
 
  <footer class="footer">
-  <div class="footer-section about">
-    <h2>Thank You!!</h2>
-    <p>Thank you for visiting my website</p>
-  </div>
-
   <div class="footer-section links">
     <h3>Quick Links</h3>
     <ul>
@@ -45,11 +62,15 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </div>
+  <div class="footer-section about">
+    <h2>    </h2>
+    
+  </div>
 
   <div class="footer-section social">
     <h3>contact me</h3>
     <div class="social-icons">
-      <a href="https://x.com/suryansh7982"><i class="fab fa-twitter"></i></a>
+      <a herf="https://x.com/suryansh7982"><i class="fab fa-twitter"></i></a>
       <a href="https://github.com/Suryansh7982"><i class="fab fa-github"></i></a>
       <a href="https://www.linkedin.com/in/suryansh-singh-a02a11378"><i class="fab fa-linkedin-in"></i></a>
       <p>suryansh7982@gmail.com</p>
